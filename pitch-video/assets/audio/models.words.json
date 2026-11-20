@@ -1,0 +1,142 @@
+[
+  {
+    "text": "A",
+    "start": 0.1,
+    "end": 0.284208
+  },
+  {
+    "text": "Kalman",
+    "start": 0.297375,
+    "end": 0.797375
+  },
+  {
+    "text": "filter",
+    "start": 0.810541,
+    "end": 1.271082
+  },
+  {
+    "text": "updates",
+    "start": 1.284208,
+    "end": 1.705249
+  },
+  {
+    "text": "position",
+    "start": 1.718416,
+    "end": 2.428957
+  },
+  {
+    "text": "and",
+    "start": 2.468416,
+    "end": 2.626291
+  },
+  {
+    "text": "motion",
+    "start": 2.639458,
+    "end": 3.231583
+  },
+  {
+    "text": "as",
+    "start": 3.284208,
+    "end": 3.521041
+  },
+  {
+    "text": "new",
+    "start": 3.534208,
+    "end": 3.863166
+  },
+  {
+    "text": "fixes",
+    "start": 3.876333,
+    "end": 4.284208
+  },
+  {
+    "text": "arrive",
+    "start": 4.297375,
+    "end": 4.8895
+  },
+  {
+    "text": "Between",
+    "start": 5.273666,
+    "end": 5.747332
+  },
+  {
+    "text": "fresh",
+    "start": 5.760541,
+    "end": 6.128957
+  },
+  {
+    "text": "fixes",
+    "start": 6.142125,
+    "end": 6.681583
+  },
+  {
+    "text": "it",
+    "start": 6.839458,
+    "end": 6.997333
+  },
+  {
+    "text": "estimates",
+    "start": 7.036833,
+    "end": 7.589458
+  },
+  {
+    "text": "motion",
+    "start": 7.602625,
+    "end": 8.3
+  },
+  {
+    "text": "and",
+    "start": 8.326333,
+    "end": 8.523708
+  },
+  {
+    "text": "tracks",
+    "start": 8.563166,
+    "end": 9.049999
+  },
+  {
+    "text": "uncertainty",
+    "start": 9.063166,
+    "end": 9.839499
+  },
+  {
+    "text": "Open",
+    "start": 10.221041,
+    "end": 10.563166
+  },
+  {
+    "text": "Meteo",
+    "start": 10.576333,
+    "end": 11.063166
+  },
+  {
+    "text": "supplies",
+    "start": 11.089458,
+    "end": 11.589458
+  },
+  {
+    "text": "the",
+    "start": 11.602625,
+    "end": 11.721041
+  },
+  {
+    "text": "separate",
+    "start": 11.734208,
+    "end": 12.168416
+  },
+  {
+    "text": "regional",
+    "start": 12.181583,
+    "end": 12.563166
+  },
+  {
+    "text": "weather",
+    "start": 12.576333,
+    "end": 12.813166
+  },
+  {
+    "text": "model",
+    "start": 12.826333,
+    "end": 13.260541
+  }
+]

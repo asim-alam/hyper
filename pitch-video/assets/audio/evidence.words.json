@@ -1,0 +1,142 @@
+[
+  {
+    "text": "We",
+    "start": 0.1,
+    "end": 0.271041
+  },
+  {
+    "text": "train",
+    "start": 0.284208,
+    "end": 0.613166
+  },
+  {
+    "text": "an",
+    "start": 0.626333,
+    "end": 0.797374
+  },
+  {
+    "text": "isotonic",
+    "start": 0.85,
+    "end": 1.586833
+  },
+  {
+    "text": "regression",
+    "start": 1.6,
+    "end": 2.126333
+  },
+  {
+    "text": "calibrator",
+    "start": 2.139458,
+    "end": 2.771041
+  },
+  {
+    "text": "leaving",
+    "start": 3.218416,
+    "end": 3.560541
+  },
+  {
+    "text": "each",
+    "start": 3.586833,
+    "end": 3.836833
+  },
+  {
+    "text": "test",
+    "start": 3.85,
+    "end": 4.178958
+  },
+  {
+    "text": "storm",
+    "start": 4.192125,
+    "end": 4.560541
+  },
+  {
+    "text": "out",
+    "start": 4.573666,
+    "end": 4.705249
+  },
+  {
+    "text": "of",
+    "start": 4.718416,
+    "end": 4.797374
+  },
+  {
+    "text": "training",
+    "start": 4.810541,
+    "end": 5.376332
+  },
+  {
+    "text": "Calibration",
+    "start": 5.760541,
+    "end": 6.655291
+  },
+  {
+    "text": "did",
+    "start": 6.668416,
+    "end": 6.839457
+  },
+  {
+    "text": "not",
+    "start": 6.852625,
+    "end": 7.102625
+  },
+  {
+    "text": "consistently",
+    "start": 7.115791,
+    "end": 7.813166
+  },
+  {
+    "text": "improve",
+    "start": 7.826333,
+    "end": 8.378958
+  },
+  {
+    "text": "the",
+    "start": 8.392125,
+    "end": 8.48425
+  },
+  {
+    "text": "model-based",
+    "start": 8.497375,
+    "end": 9.247375
+  },
+  {
+    "text": "backtest",
+    "start": 9.260541,
+    "end": 9.865791
+  },
+  {
+    "text": "so",
+    "start": 10.260541,
+    "end": 10.378957
+  },
+  {
+    "text": "the",
+    "start": 10.392125,
+    "end": 10.523708
+  },
+  {
+    "text": "replay",
+    "start": 10.536833,
+    "end": 10.957874
+  },
+  {
+    "text": "displays",
+    "start": 10.971041,
+    "end": 11.549999
+  },
+  {
+    "text": "raw",
+    "start": 11.576333,
+    "end": 11.905291
+  },
+  {
+    "text": "ensemble",
+    "start": 11.931583,
+    "end": 12.576333
+  },
+  {
+    "text": "probabilities",
+    "start": 12.589458,
+    "end": 13.497333
+  }
+]

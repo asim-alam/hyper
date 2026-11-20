@@ -1,0 +1,158 @@
+[
+  {
+    "id": "hook",
+    "start": 0,
+    "end": 9,
+    "kind": "hook",
+    "eyebrow": "01 / PROBLEM",
+    "title": "WHERE DO WE PREPARE FIRST?",
+    "detail": "The hours before landfall shape local decisions.",
+    "voice": "Before a cyclone reaches Bangladesh, response teams face an urgent question. Which communities should prepare first?"
+  },
+  {
+    "id": "title",
+    "start": 9,
+    "end": 17,
+    "kind": "title",
+    "eyebrow": "01 / PROBLEM",
+    "title": "GHURNI",
+    "detail": "A cyclone decision-support prototype for Bangladesh.",
+    "voice": "District officers and volunteers need time to brief teams and coordinate local support."
+  },
+  {
+    "id": "problem",
+    "start": 17,
+    "end": 30,
+    "kind": "map",
+    "eyebrow": "01 / PROBLEM",
+    "title": "A TRACK IS ONLY THE START.",
+    "detail": "Which communities? How many people? How uncertain?",
+    "voice": "Cyclone-prone coasts around the world face the same gap. A track shows where the storm may go. Local teams still have to work out where damaging winds might reach."
+  },
+  {
+    "id": "forecasts",
+    "start": 30,
+    "end": 44,
+    "kind": "tracks",
+    "eyebrow": "02 / SOLUTION",
+    "title": "KEEP THE UNCERTAINTY.",
+    "detail": "Archived Remal forecast · 50 plausible tracks in one cycle",
+    "voice": "Ghoorni brings live monitoring and historical impact analysis into one workspace. Teams can check the latest reported storm position, then use archived ensembles to explore how uncertainty changes local priorities."
+  },
+  {
+    "id": "pipeline",
+    "start": 44,
+    "end": 60,
+    "kind": "pipeline",
+    "eyebrow": "02 / SOLUTION",
+    "title": "MAKE THE IMPACT LOCAL.",
+    "detail": "Forecast paths → wind simulation → union-level exposure",
+    "voice": "We run each archived forecast through a physical wind model, then combine it with population data. This turns a set of storm tracks into local wind probabilities and estimated exposure ranges."
+  },
+  {
+    "id": "live",
+    "start": 60,
+    "end": 75,
+    "kind": "capture",
+    "eyebrow": "03 / DEMO · LIVE",
+    "title": "CHECK THE LATEST FIX.",
+    "detail": "Cyclone position, model weather, and data freshness.",
+    "voice": "In Live mode, the map combines storm fixes with model winds. Here the feed is connected, but the last reported fix is old. Ghoorni flags it and pauses the nowcast.",
+    "capture": "live.jpg"
+  },
+  {
+    "id": "forecast",
+    "start": 75,
+    "end": 88,
+    "kind": "capture",
+    "eyebrow": "03 / DEMO · FORECAST",
+    "title": "SEE WHAT MAY FOLLOW.",
+    "detail": "Provider forecast track and regional weather.",
+    "voice": "Forecast mode shows the provider’s track and uncertainty cone when available. Regional weather frames extend through day five. Missing intensity stays blank.",
+    "capture": "forecast.jpg"
+  },
+  {
+    "id": "union",
+    "start": 88,
+    "end": 101,
+    "kind": "capture",
+    "eyebrow": "03 / DEMO · HISTORICAL REPLAY",
+    "title": "5,160 UNIONS.",
+    "detail": "Search a community, then compare forecast cycles.",
+    "voice": "Switch to Historical and replay Cyclone Remal. Search for Amadi and check its wind probability. Compare the three forecast cycles to see how its risk changes.",
+    "capture": "union.jpg"
+  },
+  {
+    "id": "actions",
+    "start": 101,
+    "end": 111,
+    "kind": "capture",
+    "eyebrow": "03 / DEMO · EARLY ACTION",
+    "title": "ACT. PREPARE. MONITOR.",
+    "detail": "Adjust the rule, export priorities, and review the briefing.",
+    "voice": "Set a probability threshold to sort unions into action tiers. Export the list or draft a briefing for review.",
+    "capture": "actions.jpg"
+  },
+  {
+    "id": "language",
+    "start": 111,
+    "end": 120,
+    "kind": "capture",
+    "eyebrow": "03 / DEMO · LOCALIZATION",
+    "title": "BANGLA + ENGLISH.",
+    "detail": "A language switch built into the map, panels, and exports.",
+    "voice": "Switch to Bangla for the forecast map and source panel. Historical exports also support both languages.",
+    "capture": "forecast-bangla.jpg"
+  },
+  {
+    "id": "models",
+    "start": 120,
+    "end": 135,
+    "kind": "models",
+    "eyebrow": "04 / AI APPROACH · STATE ESTIMATION",
+    "title": "ESTIMATE WITH EVIDENCE.",
+    "detail": "Fresh observations → Kalman filter → position and uncertainty",
+    "voice": "A Kalman filter updates position and motion as new fixes arrive. Between fresh fixes, it estimates motion and tracks uncertainty. Open Meteo supplies the separate regional weather model."
+  },
+  {
+    "id": "evidence",
+    "start": 135,
+    "end": 150,
+    "kind": "capture",
+    "eyebrow": "04 / AI APPROACH · MACHINE LEARNING",
+    "title": "TRAIN. TEST. COMPARE.",
+    "detail": "Leave-one-storm-out isotonic regression · six historical storms",
+    "voice": "We train an isotonic regression calibrator, leaving each test storm out of training. Calibration did not consistently improve the model-based backtest, so the replay displays raw ensemble probabilities.",
+    "capture": "evidence.jpg"
+  },
+  {
+    "id": "impact",
+    "start": 150,
+    "end": 164,
+    "kind": "impact",
+    "eyebrow": "05 / IMPACT & NEXT STEP",
+    "title": "TEST IT WITH RESPONSE TEAMS.",
+    "detail": "Proposed pilot with coastal disaster management teams.",
+    "voice": "Our proposed pilot measures time to a reviewable priority list and whether users recognise stale fixes. Results will guide validation and future shelter and flood layers."
+  },
+  {
+    "id": "team",
+    "start": 164,
+    "end": 174,
+    "kind": "team",
+    "eyebrow": "05 / THE TEAM",
+    "title": "BUILT IN BANGLADESH.",
+    "detail": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+    "voice": "We’re Asim, Tawrat, Fahmida, and Shohidur. We’re looking for local teams to help evaluate Ghurni."
+  },
+  {
+    "id": "close",
+    "start": 174,
+    "end": 180,
+    "kind": "close",
+    "eyebrow": "GHURNI / ঘূর্ণি",
+    "title": "FROM FORECAST TO ACTION.",
+    "detail": "github.com/UniqueSwagger/ghurni",
+    "voice": "Ghoorni. From forecast to action. Follow official warnings."
+  }
+]

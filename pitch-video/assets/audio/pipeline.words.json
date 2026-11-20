@@ -1,0 +1,157 @@
+[
+  {
+    "text": "We",
+    "start": 0.1,
+    "end": 0.35
+  },
+  {
+    "text": "run",
+    "start": 0.363166,
+    "end": 0.599999
+  },
+  {
+    "text": "each",
+    "start": 0.626333,
+    "end": 0.849999
+  },
+  {
+    "text": "archived",
+    "start": 0.902625,
+    "end": 1.389458
+  },
+  {
+    "text": "forecast",
+    "start": 1.402625,
+    "end": 1.99475
+  },
+  {
+    "text": "through",
+    "start": 2.007875,
+    "end": 2.16575
+  },
+  {
+    "text": "a",
+    "start": 2.178958,
+    "end": 2.271083
+  },
+  {
+    "text": "physical",
+    "start": 2.284208,
+    "end": 2.797374
+  },
+  {
+    "text": "wind",
+    "start": 2.810541,
+    "end": 3.047374
+  },
+  {
+    "text": "model",
+    "start": 3.060541,
+    "end": 3.468416
+  },
+  {
+    "text": "then",
+    "start": 3.810541,
+    "end": 3.994749
+  },
+  {
+    "text": "combine",
+    "start": 4.007875,
+    "end": 4.481541
+  },
+  {
+    "text": "it",
+    "start": 4.49475,
+    "end": 4.613166
+  },
+  {
+    "text": "with",
+    "start": 4.626333,
+    "end": 4.810541
+  },
+  {
+    "text": "population",
+    "start": 4.823666,
+    "end": 5.521041
+  },
+  {
+    "text": "data",
+    "start": 5.534208,
+    "end": 5.942083
+  },
+  {
+    "text": "This",
+    "start": 6.326333,
+    "end": 6.628958
+  },
+  {
+    "text": "turns",
+    "start": 6.642125,
+    "end": 6.892125
+  },
+  {
+    "text": "a",
+    "start": 6.90525,
+    "end": 6.984208
+  },
+  {
+    "text": "set",
+    "start": 6.997375,
+    "end": 7.260541
+  },
+  {
+    "text": "of",
+    "start": 7.273666,
+    "end": 7.365791
+  },
+  {
+    "text": "storm",
+    "start": 7.378958,
+    "end": 7.799999
+  },
+  {
+    "text": "tracks",
+    "start": 7.813166,
+    "end": 8.260541
+  },
+  {
+    "text": "into",
+    "start": 8.273666,
+    "end": 8.576291
+  },
+  {
+    "text": "local",
+    "start": 8.589458,
+    "end": 9.023666
+  },
+  {
+    "text": "wind",
+    "start": 9.036833,
+    "end": 9.273666
+  },
+  {
+    "text": "probabilities",
+    "start": 9.286833,
+    "end": 10.115791
+  },
+  {
+    "text": "and",
+    "start": 10.286833,
+    "end": 10.536833
+  },
+  {
+    "text": "estimated",
+    "start": 10.69475,
+    "end": 11.207916
+  },
+  {
+    "text": "exposure",
+    "start": 11.221041,
+    "end": 11.852624
+  },
+  {
+    "text": "ranges",
+    "start": 11.865791,
+    "end": 12.471041
+  }
+]

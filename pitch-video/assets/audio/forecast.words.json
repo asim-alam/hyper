@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Forecast",
+    "start": 0.1,
+    "end": 0.718416
+  },
+  {
+    "text": "mode",
+    "start": 0.731583,
+    "end": 1.034208
+  },
+  {
+    "text": "shows",
+    "start": 1.047375,
+    "end": 1.3895
+  },
+  {
+    "text": "the",
+    "start": 1.402625,
+    "end": 1.49475
+  },
+  {
+    "text": "provider\u2019s",
+    "start": 1.507875,
+    "end": 2.139458
+  },
+  {
+    "text": "track",
+    "start": 2.152625,
+    "end": 2.586833
+  },
+  {
+    "text": "and",
+    "start": 2.692125,
+    "end": 2.85
+  },
+  {
+    "text": "uncertainty",
+    "start": 2.889458,
+    "end": 3.507874
+  },
+  {
+    "text": "cone",
+    "start": 3.521041,
+    "end": 3.863166
+  },
+  {
+    "text": "when",
+    "start": 3.876333,
+    "end": 4.007916
+  },
+  {
+    "text": "available",
+    "start": 4.021041,
+    "end": 4.652624
+  },
+  {
+    "text": "Regional",
+    "start": 5.036833,
+    "end": 5.536833
+  },
+  {
+    "text": "weather",
+    "start": 5.55,
+    "end": 5.813166
+  },
+  {
+    "text": "frames",
+    "start": 5.826333,
+    "end": 6.234208
+  },
+  {
+    "text": "extend",
+    "start": 6.247375,
+    "end": 6.760541
+  },
+  {
+    "text": "through",
+    "start": 6.773666,
+    "end": 6.957874
+  },
+  {
+    "text": "day",
+    "start": 6.971041,
+    "end": 7.142082
+  },
+  {
+    "text": "five",
+    "start": 7.15525,
+    "end": 7.734208
+  },
+  {
+    "text": "Missing",
+    "start": 8.115791,
+    "end": 8.523666
+  },
+  {
+    "text": "intensity",
+    "start": 8.536833,
+    "end": 9.128958
+  },
+  {
+    "text": "stays",
+    "start": 9.142125,
+    "end": 9.471083
+  },
+  {
+    "text": "blank",
+    "start": 9.484208,
+    "end": 9.997374
+  }
+]

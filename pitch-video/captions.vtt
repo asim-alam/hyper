@@ -1,0 +1,209 @@
+WEBVTT
+
+1
+00:00:00.550 --> 00:00:02.819
+Before a cyclone reaches Bangladesh,
+
+2
+00:00:03.087 --> 00:00:05.801
+response teams face an urgent question.
+
+3
+00:00:06.020 --> 00:00:08.090
+Which communities should prepare first?
+
+4
+00:00:09.550 --> 00:00:12.764
+District officers and volunteers need time to brief
+
+5
+00:00:12.774 --> 00:00:15.203
+teams and coordinate local support.
+
+6
+00:00:17.550 --> 00:00:20.777
+Cyclone-prone coasts around the world face the same
+
+7
+00:00:20.787 --> 00:00:23.345
+gap. A track shows where the storm may
+
+8
+00:00:23.355 --> 00:00:25.924
+go. Local teams still have to work out
+
+9
+00:00:25.934 --> 00:00:28.061
+where damaging winds might reach.
+
+10
+00:00:30.550 --> 00:00:33.957
+Ghurni brings live monitoring and historical impact analysis
+
+11
+00:00:33.967 --> 00:00:35.387
+into one workspace.
+
+12
+00:00:35.397 --> 00:00:37.957
+Teams can check the latest reported storm position,
+
+13
+00:00:38.264 --> 00:00:41.396
+then use archived ensembles to explore how uncertainty
+
+14
+00:00:41.406 --> 00:00:43.256
+changes local priorities.
+
+15
+00:00:44.550 --> 00:00:47.251
+We run each archived forecast through a physical
+
+16
+00:00:47.261 --> 00:00:50.532
+wind model, then combine it with population data.
+
+17
+00:00:50.776 --> 00:00:53.029
+This turns a set of storm tracks into
+
+18
+00:00:53.039 --> 00:00:57.061
+local wind probabilities and estimated exposure ranges.
+
+19
+00:01:00.550 --> 00:01:01.948
+In Live mode,
+
+20
+00:01:01.958 --> 00:01:05.401
+the map combines storm fixes with model winds.
+
+21
+00:01:05.645 --> 00:01:07.279
+Here the feed is connected,
+
+22
+00:01:07.289 --> 00:01:09.627
+but the last reported fix is old.
+
+23
+00:01:09.868 --> 00:01:12.679
+Ghurni flags it and pauses the nowcast.
+
+24
+00:01:15.550 --> 00:01:18.961
+Forecast mode shows the provider’s track and uncertainty
+
+25
+00:01:18.971 --> 00:01:20.477
+cone when available.
+
+26
+00:01:20.487 --> 00:01:23.324
+Regional weather frames extend through day five.
+
+27
+00:01:23.566 --> 00:01:25.587
+Missing intensity stays blank.
+
+28
+00:01:28.550 --> 00:01:31.822
+Switch to Historical and replay Cyclone Remal.
+
+29
+00:01:32.066 --> 00:01:35.140
+Search for Amadi and check its wind probability.
+
+30
+00:01:35.382 --> 00:01:38.029
+Compare the three forecast cycles to see how
+
+31
+00:01:38.039 --> 00:01:39.889
+its risk changes.
+
+32
+00:01:41.550 --> 00:01:44.356
+Set a probability threshold to sort unions into
+
+33
+00:01:44.366 --> 00:01:47.687
+action tiers. Export the list or draft a
+
+34
+00:01:47.697 --> 00:01:49.547
+briefing for review.
+
+35
+00:01:51.550 --> 00:01:54.198
+Switch to Bangla for the forecast map and
+
+36
+00:01:54.208 --> 00:01:58.837
+source panel. Historical exports also support both languages.
+
+37
+00:02:00.550 --> 00:02:03.974
+A Kalman filter updates position and motion as
+
+38
+00:02:03.984 --> 00:02:05.714
+new fixes arrive.
+
+39
+00:02:05.724 --> 00:02:09.503
+Between fresh fixes, it estimates motion and tracks
+
+40
+00:02:09.513 --> 00:02:13.851
+uncertainty. Open Meteo supplies the separate regional weather model.
+
+41
+00:02:15.550 --> 00:02:18.361
+We train an isotonic regression calibrator,
+
+42
+00:02:18.668 --> 00:02:20.966
+leaving each test storm out of training.
+
+43
+00:02:21.211 --> 00:02:25.456
+Calibration did not consistently improve the model-based backtest,
+
+44
+00:02:25.711 --> 00:02:29.087
+so the replay displays raw ensemble probabilities.
+
+45
+00:02:30.550 --> 00:02:33.422
+Our proposed pilot measures time to a reviewable
+
+46
+00:02:33.432 --> 00:02:37.295
+priority list and whether users recognise stale fixes.
+
+47
+00:02:37.539 --> 00:02:41.943
+Results will guide validation and future shelter and flood layers.
+
+48
+00:02:44.550 --> 00:02:46.382
+We’re Asim, Tawrat,
+
+49
+00:02:46.392 --> 00:02:48.242
+Fahmida, and Shohidur.
+
+50
+00:02:48.434 --> 00:02:51.272
+We’re looking for local teams to help evaluate Ghurni.
+
+51
+00:02:54.550 --> 00:02:57.087
+Ghurni. From forecast to action.
+
+52
+00:02:57.329 --> 00:02:59.179
+Follow official warnings.
