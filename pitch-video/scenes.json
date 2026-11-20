@@ -1,0 +1,157 @@
+[
+  {
+    "id": "hook",
+    "start": 0,
+    "end": 10,
+    "kind": "hook",
+    "eyebrow": "BANGLADESH · BEFORE LANDFALL",
+    "title": "WHERE DO WE PREPARE FIRST?",
+    "detail": "One forecast. Thousands of local decisions.",
+    "voice": "Before a cyclone reaches Bangladesh, one question matters. Where do we prepare first?"
+  },
+  {
+    "id": "title",
+    "start": 10,
+    "end": 18,
+    "kind": "title",
+    "eyebrow": "A CYCLONE IMPACT DECISION-SUPPORT PROTOTYPE",
+    "title": "GHURNI",
+    "detail": "From forecast to action.",
+    "voice": "Meet Ghoorni. From forecast to action. A clearer picture of cyclone wind risk, for Bangladesh."
+  },
+  {
+    "id": "problem",
+    "start": 18,
+    "end": 31,
+    "kind": "map",
+    "eyebrow": "01 / THE DECISION GAP",
+    "title": "A TRACK IS ONLY THE START.",
+    "detail": "Which communities? How many people? How uncertain?",
+    "voice": "A track shows where a cyclone may travel. But which communities face damaging winds? How many people could be exposed? And how uncertain is the answer?"
+  },
+  {
+    "id": "forecasts",
+    "start": 31,
+    "end": 45,
+    "kind": "tracks",
+    "eyebrow": "02 / MANY POSSIBLE STORMS",
+    "title": "KEEP THE UNCERTAINTY.",
+    "detail": "Remal · archived forecast · 23 May 2024, 12:00 UTC",
+    "voice": "Ghoorni starts with real archived ensemble forecasts. Each line is one possible storm path. This Remal replay uses forecasts issued before landfall, rather than pretending we already knew the outcome."
+  },
+  {
+    "id": "cycles",
+    "start": 45,
+    "end": 58,
+    "kind": "cycles",
+    "eyebrow": "03 / FOLLOW THE FORECAST",
+    "title": "72. 48. 24 HOURS.",
+    "detail": "Compare archived cycles. See what changed.",
+    "voice": "Compare forecasts around seventy-two, forty-eight, and twenty-four hours before landfall. Watch the estimated impacts change. Ghoorni keeps those changes visible, rather than showing one certain answer."
+  },
+  {
+    "id": "pipeline",
+    "start": 58,
+    "end": 73,
+    "kind": "pipeline",
+    "eyebrow": "04 / FORECAST → WIND → PEOPLE",
+    "title": "MAKE THE IMPACT LOCAL.",
+    "detail": "Physics-based wind model · population-weighted estimates",
+    "voice": "Each member passes through a physics-based wind model. Local boundaries and population estimates connect winds to communities, producing wind-threshold probabilities and a range of possible population exposure."
+  },
+  {
+    "id": "union",
+    "start": 73,
+    "end": 88,
+    "kind": "capture",
+    "capture": "union.jpg",
+    "eyebrow": "05 / ONE COMMUNITY AT A TIME",
+    "title": "5,160 UNIONS.",
+    "detail": "Search a place. Inspect its probability. Compare its forecast cycles.",
+    "voice": "Explore five thousand, one hundred and sixty unions. Search a place, inspect wind probabilities, and compare forecast cycles. These are estimates of population exposure, not casualty predictions."
+  },
+  {
+    "id": "actions",
+    "start": 88,
+    "end": 101,
+    "kind": "capture",
+    "capture": "actions.jpg",
+    "eyebrow": "06 / FROM ESTIMATES TO PRIORITIES",
+    "title": "ACT. PREPARE. MONITOR.",
+    "detail": "Adjustable rules · explicit thresholds · exportable lists",
+    "voice": "Adjustable probability rules create Act, Prepare, and Monitor lists. The threshold stays visible, and priorities can be exported. These are planning rules for review, not evacuation instructions."
+  },
+  {
+    "id": "briefing",
+    "start": 101,
+    "end": 114,
+    "kind": "capture",
+    "capture": "briefing.jpg",
+    "eyebrow": "07 / A HUMAN OWNS THE DECISION",
+    "title": "REVIEW BEFORE ACTION.",
+    "detail": "Template briefing · forecast context · approval step",
+    "voice": "A template briefing combines forecasts and priorities for human review. Change the forecast or decision rule, and approval resets. Nothing is sent automatically."
+  },
+  {
+    "id": "language",
+    "start": 114,
+    "end": 127,
+    "kind": "capture",
+    "capture": "bangla.jpg",
+    "eyebrow": "08 / BUILT TO BE UNDERSTOOD",
+    "title": "BANGLA + ENGLISH.",
+    "detail": "The same map. Two interface languages.",
+    "voice": "Controls, explanations, and exports work in Bangla and English. The map keeps geography central. Its dated Sentinel-two satellite mosaic provides context, not live storm imagery."
+  },
+  {
+    "id": "evidence",
+    "start": 127,
+    "end": 142,
+    "kind": "capture",
+    "capture": "evidence.jpg",
+    "eyebrow": "09 / SHOW THE EVIDENCE",
+    "title": "TEST. COMPARE. EXPLAIN.",
+    "detail": "Six historical storms · three lead times · transparent limitations",
+    "voice": "Evidence compares six historical storms against a single-forecast baseline. Reference impacts use observed tracks and the same wind model. This limited backtest is not independent validation against measured damage."
+  },
+  {
+    "id": "limits",
+    "start": 142,
+    "end": 154,
+    "kind": "limits",
+    "eyebrow": "10 / CLEAR ABOUT WHAT EXISTS",
+    "title": "A PROTOTYPE. WITH LIMITS.",
+    "detail": "Archived forecasts · raw probabilities · estimated exposure",
+    "voice": "Ghoorni is a historical wind-risk prototype. Numerical forecasts and physical modelling support preparedness analysis. Always follow official Bangladesh Meteorological Department warnings."
+  },
+  {
+    "id": "next",
+    "start": 154,
+    "end": 164,
+    "kind": "next",
+    "eyebrow": "11 / THE NEXT CHAPTER",
+    "title": "BUILD TOWARD FIELD USE.",
+    "detail": "Planned work. Not demonstrated capabilities.",
+    "voice": "Next: stronger validation and partner feedback. Flood mapping, surge, and shelter access remain planned. Help us evaluate the next steps."
+  },
+  {
+    "id": "team",
+    "start": 164,
+    "end": 174,
+    "kind": "team",
+    "eyebrow": "THE PEOPLE BEHIND GHURNI",
+    "title": "BUILT IN BANGLADESH.",
+    "detail": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+    "voice": "Built in Bangladesh by Asim, Tawrat, Fahmida, and Shohidur. We are turning complex forecast information into a clearer starting point for local preparedness."
+  },
+  {
+    "id": "close",
+    "start": 174,
+    "end": 180,
+    "kind": "close",
+    "eyebrow": "GHURNI / ঘূর্ণি",
+    "title": "FROM FORECAST TO ACTION.",
+    "detail": "github.com/UniqueSwagger/ghurni",
+    "voice": "Ghoorni. From forecast to action. Follow official warnings."
+  }
+]

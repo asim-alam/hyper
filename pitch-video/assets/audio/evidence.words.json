@@ -1,0 +1,147 @@
+[
+  {
+    "text": "Evidence",
+    "start": 0.1,
+    "end": 0.626958
+  },
+  {
+    "text": "compares",
+    "start": 0.639208,
+    "end": 1.141666
+  },
+  {
+    "text": "six",
+    "start": 1.153916,
+    "end": 1.472541
+  },
+  {
+    "text": "historical",
+    "start": 1.484791,
+    "end": 2.060791
+  },
+  {
+    "text": "storms",
+    "start": 2.073041,
+    "end": 2.550999
+  },
+  {
+    "text": "against",
+    "start": 2.5755,
+    "end": 2.955416
+  },
+  {
+    "text": "a",
+    "start": 3.028916,
+    "end": 3.077916
+  },
+  {
+    "text": "single-forecast",
+    "start": 3.090208,
+    "end": 4.095124
+  },
+  {
+    "text": "baseline",
+    "start": 4.107333,
+    "end": 4.695583
+  },
+  {
+    "text": "Reference",
+    "start": 5.05,
+    "end": 5.527958
+  },
+  {
+    "text": "impacts",
+    "start": 5.540208,
+    "end": 6.054916
+  },
+  {
+    "text": "use",
+    "start": 6.079416,
+    "end": 6.250999
+  },
+  {
+    "text": "observed",
+    "start": 6.26325,
+    "end": 6.728916
+  },
+  {
+    "text": "tracks",
+    "start": 6.741166,
+    "end": 7.219124
+  },
+  {
+    "text": "and",
+    "start": 7.231375,
+    "end": 7.439708
+  },
+  {
+    "text": "the",
+    "start": 7.451958,
+    "end": 7.549999
+  },
+  {
+    "text": "same",
+    "start": 7.56225,
+    "end": 7.978916
+  },
+  {
+    "text": "wind",
+    "start": 7.991166,
+    "end": 8.223999
+  },
+  {
+    "text": "model",
+    "start": 8.236291,
+    "end": 8.689707
+  },
+  {
+    "text": "This",
+    "start": 9.045083,
+    "end": 9.290166
+  },
+  {
+    "text": "limited",
+    "start": 9.302458,
+    "end": 9.706874
+  },
+  {
+    "text": "backtest",
+    "start": 9.719125,
+    "end": 10.246083
+  },
+  {
+    "text": "is",
+    "start": 10.319625,
+    "end": 10.503458
+  },
+  {
+    "text": "not",
+    "start": 10.515666,
+    "end": 10.760749
+  },
+  {
+    "text": "independent",
+    "start": 10.773041,
+    "end": 11.287749
+  },
+  {
+    "text": "validation",
+    "start": 11.3,
+    "end": 11.9495
+  },
+  {
+    "text": "against",
+    "start": 11.96175,
+    "end": 12.329416
+  },
+  {
+    "text": "measured",
+    "start": 12.341666,
+    "end": 12.721582
+  },
+  {
+    "text": "damage",
+    "start": 12.733833,
+    "end": 13.297541
+  }
+]
