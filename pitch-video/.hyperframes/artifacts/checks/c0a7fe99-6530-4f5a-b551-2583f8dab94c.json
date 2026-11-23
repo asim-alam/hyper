@@ -1,0 +1,856 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "gsap_timeline_set_initial_hide",
+        "severity": "warning",
+        "message": "Initial hidden state for \"#scene-hook .enter\" is set via tl.set(...) at position 0 inside the paused timeline. A zero-duration set at 0 does not render while the playhead sits exactly at 0, so frame 0 shows the un-hidden state.",
+        "selector": "#scene-hook .enter",
+        "dataAttributes": {},
+        "sourceFile": "/home/asim/CODE/ClimateTwin/pitch-video/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use gsap.set(...) (immediate, outside the timeline) for initial states, or author the hidden state directly in CSS/attributes."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 180,
+    "samples": [
+      3,
+      9,
+      15,
+      21,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69,
+      75,
+      81,
+      87,
+      93,
+      99,
+      105,
+      111,
+      117,
+      123,
+      129,
+      135,
+      141,
+      147,
+      153,
+      159,
+      165,
+      171,
+      177
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3,
+      45,
+      87,
+      129,
+      177
+    ],
+    "checked": 7,
+    "passed": 7
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 7,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.61 s (53.19–56.80 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 53.189,
+        "seconds": 3.606,
+        "floorSeconds": 3,
+        "until": 56.795
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 74 text elements stay under it for 0.5 s or more, the smallest \"ACTUAL APPLICATION · PANEL DETAIL\" at 17 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "ACTUAL APPLICATION · PANEL DETAIL",
+        "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 717.78,
+          "y": 858.93,
+          "width": 331.05,
+          "height": 21.64
+        },
+        "time": 101.87,
+        "times": [
+          0.601,
+          0.601,
+          0.902,
+          9.616,
+          9.917,
+          17.429,
+          17.73,
+          17.73,
+          17.73,
+          17.73,
+          17.73,
+          17.73,
+          18.03,
+          30.351,
+          30.651,
+          30.651,
+          30.651,
+          30.651,
+          30.651,
+          30.651,
+          30.952,
+          44.474,
+          44.775,
+          44.775,
+          44.775,
+          44.775,
+          45.075,
+          45.075,
+          45.075,
+          60.401,
+          60.701,
+          61.002,
+          61.002,
+          75.426,
+          75.726,
+          76.027,
+          76.027,
+          88.347,
+          88.648,
+          88.648,
+          88.948,
+          88.948,
+          101.569,
+          101.87,
+          101.87,
+          101.87,
+          111.486,
+          111.786,
+          111.786,
+          111.786,
+          120.501,
+          120.801,
+          120.801,
+          120.801,
+          121.102,
+          135.526,
+          135.826,
+          135.826,
+          135.826,
+          135.826,
+          150.551,
+          150.851,
+          150.851,
+          150.851,
+          151.152,
+          164.374,
+          164.674,
+          164.674,
+          164.674,
+          164.674,
+          164.975,
+          164.975,
+          174.591,
+          174.891
+        ],
+        "fontPx": 16.72,
+        "floorPx": 28,
+        "seconds": 9.316,
+        "elements": [
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 16.72,
+            "time": 101.87,
+            "seconds": 9.316
+          },
+          {
+            "selector": "#scene-team > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Ghurni · Bangladesh",
+            "fontPx": 16.83,
+            "time": 164.975,
+            "seconds": 9.316
+          },
+          {
+            "selector": "#scene-live > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 16.86,
+            "time": 61.002,
+            "seconds": 14.124
+          },
+          {
+            "selector": "#scene-forecast > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 16.86,
+            "time": 76.027,
+            "seconds": 12.321
+          },
+          {
+            "selector": "#scene-pipeline > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Holland wind profile · UNFPA/BBS 2022 population totals · WorldPop 2020 allocation · model-derived estimates",
+            "fontPx": 16.91,
+            "time": 45.075,
+            "seconds": 15.026
+          },
+          {
+            "selector": "#scene-close > div:nth-of-type(3) > p:nth-of-type(2)",
+            "text": "Decision support only · always follow official BMD warnings",
+            "fontPx": 16.93,
+            "time": 174.891,
+            "seconds": 5.109
+          },
+          {
+            "selector": "#scene-hook > div:nth-of-type(3) > p:nth-of-type(2)",
+            "text": "Ghurni product captures · Live, Forecast and Historical",
+            "fontPx": 17,
+            "time": 0.902,
+            "seconds": 8.414
+          },
+          {
+            "selector": "#scene-title > div:nth-of-type(3) > p:nth-of-type(2)",
+            "text": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+            "fontPx": 17,
+            "time": 9.917,
+            "seconds": 7.212
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "SINGLE ARCHIVED GFS FORECAST",
+            "fontPx": 17,
+            "time": 17.73,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Forecasts: UCAR RAL a-decks · boundaries: geoBoundaries / BBS–OCHA · editorial map projection",
+            "fontPx": 17,
+            "time": 18.03,
+            "seconds": 12.321
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "ARCHIVED ENSEMBLE GEOMETRY",
+            "fontPx": 17,
+            "time": 30.651,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Forecasts: UCAR RAL a-decks · boundaries: geoBoundaries / BBS–OCHA · editorial map projection",
+            "fontPx": 17,
+            "time": 30.952,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-live > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Live system capture · 20 Nov 2026 UTC · GDACS / JTWC · Open-Meteo model data · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 61.002,
+            "seconds": 14.124
+          },
+          {
+            "selector": "#scene-forecast > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Live system capture · 20 Nov 2026 UTC · GDACS / JTWC · Open-Meteo model data · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 76.027,
+            "seconds": 12.321
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 17,
+            "time": 88.948,
+            "seconds": 12.321
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 88.948,
+            "seconds": 12.321
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 101.87,
+            "seconds": 9.316
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 17,
+            "time": 111.786,
+            "seconds": 8.415
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Live system capture · 20 Nov 2026 UTC · GDACS / JTWC · Open-Meteo model data · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 111.786,
+            "seconds": 8.415
+          },
+          {
+            "selector": "#scene-models > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Open-Meteo provides regional model weather in a separate layer.",
+            "fontPx": 17,
+            "time": 121.102,
+            "seconds": 14.124
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 17,
+            "time": 135.826,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 135.826,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-impact > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Pilot targets are proposed success criteria. Shelter access and flood mapping are planned.",
+            "fontPx": 17,
+            "time": 151.152,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 18.38,
+            "time": 17.73,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 18.38,
+            "time": 17.73,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 18.38,
+            "time": 17.73,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 18.38,
+            "time": 30.651,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 18.38,
+            "time": 30.651,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 18.38,
+            "time": 30.651,
+            "seconds": 13.523
+          },
+          {
+            "selector": "div.union-fact.enter > span:nth-of-type(1)",
+            "text": "Amadi · chance of ≥34 ktRemal T−24 archived cycle",
+            "fontPx": 19,
+            "time": 88.648,
+            "seconds": 12.621
+          },
+          {
+            "selector": "div.evidence-fact.enter > span:nth-of-type(1)",
+            "text": "STORMS3 LEAD TIMES",
+            "fontPx": 19,
+            "time": 135.826,
+            "seconds": 14.425
+          },
+          {
+            "selector": "div.signal.enter",
+            "text": "THE WINDOW FOR PREPARATION IS OPEN.",
+            "fontPx": 19.6,
+            "time": 0.601,
+            "seconds": 8.715
+          },
+          {
+            "selector": "div.formula.enter > span:nth-of-type(1)",
+            "text": "EXPECTED EXPOSURE",
+            "fontPx": 21,
+            "time": 45.075,
+            "seconds": 15.026
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "REMAL / 2024",
+            "fontPx": 22,
+            "time": 17.73,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "REMAL / 2024",
+            "fontPx": 22,
+            "time": 30.651,
+            "seconds": 13.523
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Team lead",
+            "fontPx": 22.66,
+            "time": 164.674,
+            "seconds": 9.617
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Local preparedness needs more than a centre line.",
+            "fontPx": 23,
+            "time": 17.73,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "50 archived ensemble members · GEFS / GEPS / NAVGEM-E",
+            "fontPx": 23,
+            "time": 30.651,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-live > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "AKVAN-26 · latest reported fix 19 Nov, 18:00 UTC · nowcast paused",
+            "fontPx": 23,
+            "time": 60.701,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-forecast > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "GDACS / JTWC provider track · issued 19 Nov, 18:00 UTC",
+            "fontPx": 23,
+            "time": 75.726,
+            "seconds": 12.622
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Remal · 25 May 2024 12:00 UTC · forecast intensity · ≥34 kt",
+            "fontPx": 23,
+            "time": 88.648,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Example rule: P(wind ≥34 kt) ≥30% · Remal T−24 cycle",
+            "fontPx": 23,
+            "time": 101.87,
+            "seconds": 9.316
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Bangla forecast map and source panel · dated model weather",
+            "fontPx": 23,
+            "time": 111.786,
+            "seconds": 8.415
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "The calibrator is evaluated offline. Raw ensemble probabilities remain the default.",
+            "fontPx": 23,
+            "time": 135.826,
+            "seconds": 14.425
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "Team member",
+            "fontPx": 23,
+            "time": 164.674,
+            "seconds": 9.617
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "Team member",
+            "fontPx": 23,
+            "time": 164.674,
+            "seconds": 9.617
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(4) > p:nth-of-type(1)",
+            "text": "Team member",
+            "fontPx": 23,
+            "time": 164.975,
+            "seconds": 9.316
+          },
+          {
+            "selector": "div.pipeline > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "One member. One possible path.",
+            "fontPx": 23.79,
+            "time": 44.775,
+            "seconds": 15.326
+          },
+          {
+            "selector": "#scene-models > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "GDACS / JTWC position, timestamp and source",
+            "fontPx": 23.83,
+            "time": 120.801,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-impact > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Median time to prepare a reviewable priority list",
+            "fontPx": 23.87,
+            "time": 150.851,
+            "seconds": 13.523
+          },
+          {
+            "selector": "div.pipeline > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "Physical model → wind field.",
+            "fontPx": 24,
+            "time": 44.775,
+            "seconds": 15.326
+          },
+          {
+            "selector": "div.pipeline > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "Boundaries × population estimates.",
+            "fontPx": 24,
+            "time": 44.775,
+            "seconds": 15.326
+          },
+          {
+            "selector": "div.formula.enter > small:nth-of-type(1)",
+            "text": "Uncertainty: 10–90% range across forecast members",
+            "fontPx": 24,
+            "time": 45.075,
+            "seconds": 15.026
+          },
+          {
+            "selector": "#scene-models > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Updates position and motion from new observations",
+            "fontPx": 24,
+            "time": 120.801,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-models > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Between-fix estimates pause when fixes become stale",
+            "fontPx": 24,
+            "time": 120.801,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-impact > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Pilot users correctly identify when a fix is stale",
+            "fontPx": 24,
+            "time": 150.851,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-impact > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Compare decisions with current workflows in both languages",
+            "fontPx": 24,
+            "time": 150.851,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-hook > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "01 / PROBLEM",
+            "fontPx": 25,
+            "time": 0.601,
+            "seconds": 8.715
+          },
+          {
+            "selector": "#scene-title > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "01 / PROBLEM",
+            "fontPx": 25,
+            "time": 9.616,
+            "seconds": 7.513
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "01 / PROBLEM",
+            "fontPx": 25,
+            "time": 17.429,
+            "seconds": 12.922
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "02 / SOLUTION",
+            "fontPx": 25,
+            "time": 30.351,
+            "seconds": 13.823
+          },
+          {
+            "selector": "#scene-pipeline > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "02 / SOLUTION",
+            "fontPx": 25,
+            "time": 44.474,
+            "seconds": 15.627
+          },
+          {
+            "selector": "#scene-pipeline > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Forecast paths → wind simulation → union-level exposure",
+            "fontPx": 25,
+            "time": 44.775,
+            "seconds": 15.326
+          },
+          {
+            "selector": "#scene-live > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "03 / DEMO · LIVE",
+            "fontPx": 25,
+            "time": 60.401,
+            "seconds": 14.725
+          },
+          {
+            "selector": "#scene-forecast > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "03 / DEMO · FORECAST",
+            "fontPx": 25,
+            "time": 75.426,
+            "seconds": 12.922
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "03 / DEMO · HISTORICAL REPLAY",
+            "fontPx": 25,
+            "time": 88.347,
+            "seconds": 12.922
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "03 / DEMO · EARLY ACTION",
+            "fontPx": 25,
+            "time": 101.569,
+            "seconds": 9.617
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "03 / DEMO · LOCALIZATION",
+            "fontPx": 25,
+            "time": 111.486,
+            "seconds": 8.715
+          },
+          {
+            "selector": "#scene-models > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "04 / AI APPROACH · STATE ESTIMATION",
+            "fontPx": 25,
+            "time": 120.501,
+            "seconds": 14.725
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "04 / AI APPROACH · MACHINE LEARNING",
+            "fontPx": 25,
+            "time": 135.526,
+            "seconds": 14.725
+          },
+          {
+            "selector": "#scene-impact > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "05 / IMPACT & NEXT STEP",
+            "fontPx": 25,
+            "time": 150.551,
+            "seconds": 13.823
+          },
+          {
+            "selector": "#scene-team > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "05 / THE TEAM",
+            "fontPx": 25,
+            "time": 164.374,
+            "seconds": 9.917
+          },
+          {
+            "selector": "#scene-team > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+            "fontPx": 25,
+            "time": 164.674,
+            "seconds": 9.617
+          },
+          {
+            "selector": "#scene-close > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "GHURNI / ঘূর্ণি",
+            "fontPx": 25,
+            "time": 174.591,
+            "seconds": 5.409
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.61 s (125.91–129.52 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 125.91,
+        "seconds": 3.606,
+        "floorSeconds": 3,
+        "until": 129.516
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.91 s (129.82–133.72 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 129.816,
+        "seconds": 3.907,
+        "floorSeconds": 3,
+        "until": 133.723
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.61 s (153.56–157.16 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 153.556,
+        "seconds": 3.606,
+        "floorSeconds": 3,
+        "until": 157.162
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.91 s (157.76–161.67 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 157.763,
+        "seconds": 3.906,
+        "floorSeconds": 3,
+        "until": 161.669
+      }
+    ],
+    "enabled": true,
+    "step": 0.3009999999999877,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

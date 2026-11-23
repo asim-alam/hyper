@@ -1,0 +1,2045 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 12,
+    "infoCount": 12,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 10.25,
+        "selector": "#scene-hook > div:nth-of-type(3) > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 895.5,
+          "right": 871.2,
+          "bottom": 917.5,
+          "width": 775.2,
+          "height": 22
+        },
+        "containerSelector": "#scene-title > div:nth-of-type(3) > p:nth-of-type(2)",
+        "text": "Product captures · historical forecast replay · satellite mosaic is not live",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 895.5,
+          "width": 775.2,
+          "height": 22
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 10.275,
+        "occurrences": 2,
+        "heldMs": 25.000000000000355,
+        "times": [
+          10.25,
+          10.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 18.25,
+        "selector": "#scene-title > div:nth-of-type(3) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 142.83,
+          "right": 813.86,
+          "bottom": 549.83,
+          "width": 717.86,
+          "height": 407
+        },
+        "containerSelector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "text": "GHURNI",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 142.83,
+          "width": 717.86,
+          "height": 407
+        },
+        "firstSeen": 18.25,
+        "lastSeen": 18.275,
+        "occurrences": 2,
+        "heldMs": 24.99999999999858,
+        "times": [
+          18.25,
+          18.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 18.25,
+        "selector": "#scene-title > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 502.83,
+          "right": 240.69,
+          "bottom": 629.83,
+          "width": 144.69,
+          "height": 127
+        },
+        "containerSelector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "text": "ঘূর্ণি",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 502.83,
+          "width": 144.69,
+          "height": 127
+        },
+        "firstSeen": 18.25,
+        "lastSeen": 18.275,
+        "occurrences": 2,
+        "heldMs": 24.99999999999858,
+        "times": [
+          18.25,
+          18.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 18.25,
+        "selector": "#scene-title > div:nth-of-type(3) > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 895.5,
+          "right": 810,
+          "bottom": 917.5,
+          "width": 714,
+          "height": 22
+        },
+        "containerSelector": "#scene-problem > div:nth-of-type(2) > p:nth-of-type(2)",
+        "text": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 895.5,
+          "width": 714,
+          "height": 22
+        },
+        "firstSeen": 18.25,
+        "lastSeen": 18.275,
+        "occurrences": 2,
+        "heldMs": 24.99999999999858,
+        "times": [
+          18.25,
+          18.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 31.25,
+        "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 157.33,
+          "right": 550.56,
+          "bottom": 583.83,
+          "width": 454.56,
+          "height": 426.5
+        },
+        "containerSelector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "text": "A TRACK IS ONLY THE START.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 157.33,
+          "width": 454.56,
+          "height": 426.5
+        },
+        "firstSeen": 31.25,
+        "lastSeen": 31.275,
+        "occurrences": 2,
+        "heldMs": 24.99999999999858,
+        "times": [
+          31.25,
+          31.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 31.25,
+        "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 766,
+          "top": 773.25,
+          "right": 924.41,
+          "bottom": 802.25,
+          "width": 158.41,
+          "height": 29
+        },
+        "containerSelector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "text": "REMAL / 2024 SINGLE ARCHIVED GFS FORECAST",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 766,
+          "y": 773.25,
+          "width": 158.41,
+          "height": 29
+        },
+        "firstSeen": 31.25,
+        "lastSeen": 31.275,
+        "occurrences": 2,
+        "heldMs": 24.99999999999858,
+        "times": [
+          31.25,
+          31.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 31.25,
+        "selector": "#scene-problem > div:nth-of-type(2) > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 895.5,
+          "right": 1044.61,
+          "bottom": 917.5,
+          "width": 948.61,
+          "height": 22
+        },
+        "containerSelector": "#scene-forecasts > div:nth-of-type(2) > p:nth-of-type(2)",
+        "text": "Forecasts: UCAR RAL a-decks · boundaries: geoBoundaries / BBS–OCHA · editorial map projection",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 895.5,
+          "width": 948.61,
+          "height": 22
+        },
+        "firstSeen": 31.25,
+        "lastSeen": 31.275,
+        "occurrences": 2,
+        "heldMs": 24.99999999999858,
+        "times": [
+          31.25,
+          31.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 101.25,
+        "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 172.36,
+          "right": 480.92,
+          "bottom": 574.3,
+          "width": 384.92,
+          "height": 401.94
+        },
+        "containerSelector": "#scene-briefing > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "text": "ACT. PREPARE. MONITOR.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 172.36,
+          "width": 384.92,
+          "height": 401.94
+        },
+        "firstSeen": 101.25,
+        "lastSeen": 101.275,
+        "occurrences": 2,
+        "heldMs": 25.000000000005684,
+        "times": [
+          101.25,
+          101.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 101.25,
+        "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 579.77,
+          "right": 583.2,
+          "bottom": 660.16,
+          "width": 487.2,
+          "height": 80.39
+        },
+        "containerSelector": "#scene-briefing > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "text": "Adjustable rules · explicit thresholds · exportable lists",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 579.77,
+          "width": 487.2,
+          "height": 80.39
+        },
+        "firstSeen": 101.25,
+        "lastSeen": 101.275,
+        "occurrences": 2,
+        "heldMs": 25.000000000005684,
+        "times": [
+          101.25,
+          101.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 101.25,
+        "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 723.55,
+          "right": 576.66,
+          "bottom": 790.34,
+          "width": 480.66,
+          "height": 66.79
+        },
+        "containerSelector": "#scene-briefing > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "text": "Example rule: P(wind ≥34 kt) ≥30% · Remal T−24 cycle",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 723.55,
+          "width": 480.66,
+          "height": 66.79
+        },
+        "firstSeen": 101.25,
+        "lastSeen": 101.275,
+        "occurrences": 2,
+        "heldMs": 25.000000000005684,
+        "times": [
+          101.25,
+          101.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 101.25,
+        "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 715,
+          "top": 858.75,
+          "right": 1051.61,
+          "bottom": 880.75,
+          "width": 336.61,
+          "height": 22
+        },
+        "containerSelector": "#scene-briefing > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "text": "ACTUAL APPLICATION · PANEL DETAIL",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 715,
+          "y": 858.75,
+          "width": 336.61,
+          "height": 22
+        },
+        "firstSeen": 101.25,
+        "lastSeen": 101.275,
+        "occurrences": 2,
+        "heldMs": 25.000000000005684,
+        "times": [
+          101.25,
+          101.275
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 101.25,
+        "selector": "#scene-actions > div:nth-of-type(2) > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 895.5,
+          "right": 1289.41,
+          "bottom": 917.5,
+          "width": 1193.41,
+          "height": 22
+        },
+        "containerSelector": "#scene-briefing > div:nth-of-type(2) > p:nth-of-type(2)",
+        "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 96,
+          "y": 895.5,
+          "width": 1193.41,
+          "height": 22
+        },
+        "firstSeen": 101.25,
+        "lastSeen": 101.275,
+        "occurrences": 2,
+        "heldMs": 25.000000000005684,
+        "times": [
+          101.25,
+          101.275
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "#scene-pipeline > div:nth-of-type(2) > p:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2016,
+          "top": 65,
+          "right": 2529.02,
+          "bottom": 98,
+          "width": 513.02,
+          "height": 33
+        },
+        "containerSelector": "#root",
+        "text": "04 / FORECAST → WIND → PEOPLE",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 609.02
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2016,
+          "y": 65,
+          "width": 513.02,
+          "height": 33
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "#scene-pipeline > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2016,
+          "top": 96,
+          "right": 3024.06,
+          "bottom": 264,
+          "width": 1008.06,
+          "height": 168
+        },
+        "containerSelector": "#root",
+        "text": "MAKE THE IMPACT LOCAL.",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1104.06
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2016,
+          "y": 96,
+          "width": 1008.06,
+          "height": 168
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "#scene-pipeline > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3154,
+          "top": 143.97,
+          "right": 3724.02,
+          "bottom": 215.72,
+          "width": 570.02,
+          "height": 71.75
+        },
+        "containerSelector": "#root",
+        "text": "Physics-based wind model · population-weighted estimates",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1804.02
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3154,
+          "y": 143.97,
+          "width": 570.02,
+          "height": 71.75
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2016,
+          "top": 320.44,
+          "right": 2055.59,
+          "bottom": 392.44,
+          "width": 39.59,
+          "height": 72
+        },
+        "containerSelector": "#root",
+        "text": "01",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 135.59
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2016,
+          "y": 320.44,
+          "width": 39.59,
+          "height": 72
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2016,
+          "top": 400.44,
+          "right": 2296.02,
+          "bottom": 518.44,
+          "width": 280.02,
+          "height": 118
+        },
+        "containerSelector": "#root",
+        "text": "FORECAST",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 376.02
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2016,
+          "y": 400.44,
+          "width": 280.02,
+          "height": 118
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(1) > p:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2016,
+          "top": 536.44,
+          "right": 2448,
+          "bottom": 568.44,
+          "width": 432,
+          "height": 32
+        },
+        "containerSelector": "#root",
+        "text": "One member. One possible path.",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 528
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2016,
+          "y": 536.44,
+          "width": 432,
+          "height": 32
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(2) > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2608.66,
+          "top": 320.44,
+          "right": 2656.09,
+          "bottom": 392.44,
+          "width": 47.43,
+          "height": 72
+        },
+        "containerSelector": "#root",
+        "text": "02",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 736.09
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2608.66,
+          "y": 320.44,
+          "width": 47.43,
+          "height": 72
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(2) > h2:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2608.66,
+          "top": 400.44,
+          "right": 2759.17,
+          "bottom": 518.44,
+          "width": 150.51,
+          "height": 118
+        },
+        "containerSelector": "#root",
+        "text": "WIND",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 839.17
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2608.66,
+          "y": 400.44,
+          "width": 150.51,
+          "height": 118
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(2) > p:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2608.66,
+          "top": 536.44,
+          "right": 3011.91,
+          "bottom": 568.44,
+          "width": 403.25,
+          "height": 32
+        },
+        "containerSelector": "#root",
+        "text": "Physical model → wind field.",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1091.91
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2608.66,
+          "y": 536.44,
+          "width": 403.25,
+          "height": 32
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(3) > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3201.33,
+          "top": 320.44,
+          "right": 3248.77,
+          "bottom": 392.44,
+          "width": 47.44,
+          "height": 72
+        },
+        "containerSelector": "#root",
+        "text": "03",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1328.77
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3201.33,
+          "y": 320.44,
+          "width": 47.44,
+          "height": 72
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(3) > h2:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3201.33,
+          "top": 400.44,
+          "right": 3408.14,
+          "bottom": 518.44,
+          "width": 206.81,
+          "height": 118
+        },
+        "containerSelector": "#root",
+        "text": "PEOPLE",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1488.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3201.33,
+          "y": 400.44,
+          "width": 206.81,
+          "height": 118
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.25,
+        "selector": "div.pipeline > div:nth-of-type(3) > p:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3201.33,
+          "top": 536.44,
+          "right": 3532.53,
+          "bottom": 604.44,
+          "width": 331.2,
+          "height": 68
+        },
+        "containerSelector": "#root",
+        "text": "Boundaries × population estimates.",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1612.53
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3201.33,
+          "y": 536.44,
+          "width": 331.2,
+          "height": 68
+        },
+        "firstSeen": 10.25,
+        "lastSeen": 31.25,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          10.25,
+          18.25,
+          31.25
+        ]
+      }
+    ],
+    "duration": 180,
+    "samples": [
+      10.25,
+      18.25,
+      31.25,
+      101.25,
+      174.25,
+      179.7
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 102,
+    "truncated": true
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      10.25,
+      18.25,
+      31.25,
+      101.25,
+      179.7
+    ],
+    "checked": 4,
+    "passed": 4
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 11,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.00 s (1.50–4.51 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 1.503,
+        "seconds": 3.005,
+        "floorSeconds": 3,
+        "until": 4.508
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.31 s (6.61–9.92 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 6.611,
+        "seconds": 3.306,
+        "floorSeconds": 3,
+        "until": 9.917
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.30 s (13.52–16.83 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 13.523,
+        "seconds": 3.305,
+        "floorSeconds": 3,
+        "until": 16.828
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.31 s (37.86–41.17 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 37.863,
+        "seconds": 3.306,
+        "floorSeconds": 3,
+        "until": 41.169
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 91 text elements stay under it for 0.5 s or more, the smallest \"BANGLADESH\" at 10 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "BANGLADESH",
+        "selector": "div.cycle-grid > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 336,
+          "y": 464.97,
+          "width": 63.22,
+          "height": 12
+        },
+        "time": 45.376,
+        "times": [
+          0,
+          0.601,
+          0.902,
+          10.518,
+          10.818,
+          18.331,
+          18.631,
+          18.932,
+          18.932,
+          18.932,
+          18.932,
+          18.932,
+          18.932,
+          31.252,
+          31.252,
+          31.252,
+          31.252,
+          31.252,
+          31.553,
+          31.853,
+          32.154,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.376,
+          45.676,
+          45.977,
+          58.297,
+          58.297,
+          58.598,
+          58.898,
+          58.898,
+          58.898,
+          59.199,
+          59.199,
+          73.322,
+          73.322,
+          73.623,
+          73.923,
+          73.923,
+          88.347,
+          88.347,
+          88.347,
+          88.347,
+          101.269,
+          101.269,
+          101.569,
+          101.87,
+          114.491,
+          114.491,
+          114.491,
+          114.491,
+          127.412,
+          127.412,
+          127.412,
+          127.412,
+          128.013,
+          142.137,
+          142.437,
+          142.437,
+          142.738,
+          143.038,
+          154.457,
+          154.457,
+          154.457,
+          154.457,
+          154.457,
+          154.758,
+          154.758,
+          155.058,
+          164.374,
+          164.374,
+          164.374,
+          164.374,
+          164.674,
+          164.975,
+          164.975,
+          174.591,
+          174.891
+        ],
+        "fontPx": 10.35,
+        "floorPx": 28,
+        "seconds": 13.222,
+        "elements": [
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 10.35,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 10.35,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 10.35,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(2) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 10.5,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(2) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 10.5,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(2) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 10.5,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(3) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 10.5,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(3) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 10.5,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(3) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 10.5,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "ISSUED 2024-05-23 12:00 UTC",
+            "fontPx": 15.76,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ISSUED 2024-05-24 12:00 UTC",
+            "fontPx": 16,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(3) > div:nth-of-type(3)",
+            "text": "ISSUED 2024-05-25 12:00 UTC",
+            "fontPx": 16,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-pipeline > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Holland wind profile · UNFPA/BBS 2022 population totals · WorldPop 2020 allocation · model-derived estimates",
+            "fontPx": 16.72,
+            "time": 58.297,
+            "seconds": 15.326
+          },
+          {
+            "selector": "#scene-briefing > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 16.72,
+            "time": 101.269,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 16.8,
+            "time": 88.347,
+            "seconds": 13.223
+          },
+          {
+            "selector": "#scene-team > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Ghurni · Bangladesh",
+            "fontPx": 16.83,
+            "time": 164.975,
+            "seconds": 9.616
+          },
+          {
+            "selector": "#scene-close > div:nth-of-type(3) > p:nth-of-type(2)",
+            "text": "Decision support only · always follow official BMD warnings",
+            "fontPx": 16.93,
+            "time": 174.891,
+            "seconds": 5.109
+          },
+          {
+            "selector": "#scene-hook > div:nth-of-type(3) > p:nth-of-type(2)",
+            "text": "Product captures · historical forecast replay · satellite mosaic is not live",
+            "fontPx": 17,
+            "time": 0.902,
+            "seconds": 9.616
+          },
+          {
+            "selector": "#scene-title > div:nth-of-type(3) > p:nth-of-type(2)",
+            "text": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+            "fontPx": 17,
+            "time": 10.818,
+            "seconds": 7.814
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Forecasts: UCAR RAL a-decks · boundaries: geoBoundaries / BBS–OCHA · editorial map projection",
+            "fontPx": 17,
+            "time": 18.331,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "SINGLE ARCHIVED GFS FORECAST",
+            "fontPx": 17,
+            "time": 18.932,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "ARCHIVED ENSEMBLE GEOMETRY",
+            "fontPx": 17,
+            "time": 31.252,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Forecasts: UCAR RAL a-decks · boundaries: geoBoundaries / BBS–OCHA · editorial map projection",
+            "fontPx": 17,
+            "time": 32.154,
+            "seconds": 13.523
+          },
+          {
+            "selector": "#scene-cycles > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Cycle names are approximate lead-time labels. Use the issue timestamps for exact forecast context.",
+            "fontPx": 17,
+            "time": 45.977,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 17,
+            "time": 73.322,
+            "seconds": 15.326
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 73.322,
+            "seconds": 15.326
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 88.347,
+            "seconds": 13.223
+          },
+          {
+            "selector": "#scene-briefing > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 101.269,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 17,
+            "time": 114.491,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 114.491,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "EOxCloudless 2024 / EOX · modified Copernicus Sentinel data 2024 · CC BY-NC-SA 4.0 · OpenFreeMap / © OSM contributors",
+            "fontPx": 17,
+            "time": 127.412,
+            "seconds": 15.026
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "ACTUAL APPLICATION · PANEL DETAIL",
+            "fontPx": 17,
+            "time": 128.013,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-limits > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "No runtime LLM · no custom deep-learning cyclone model · wind-risk analysis only",
+            "fontPx": 17,
+            "time": 143.038,
+            "seconds": 11.42
+          },
+          {
+            "selector": "#scene-next > div:nth-of-type(2) > p:nth-of-type(2)",
+            "text": "Seeking disaster-management practitioners and domain experts to evaluate future development.",
+            "fontPx": 17,
+            "time": 155.058,
+            "seconds": 9.617
+          },
+          {
+            "selector": "div.next-list > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "PLANNED",
+            "fontPx": 17.81,
+            "time": 154.758,
+            "seconds": 9.917
+          },
+          {
+            "selector": "div.next-list > div:nth-of-type(2) > small:nth-of-type(1)",
+            "text": "PLANNED",
+            "fontPx": 18,
+            "time": 154.457,
+            "seconds": 10.218
+          },
+          {
+            "selector": "div.next-list > div:nth-of-type(3) > small:nth-of-type(1)",
+            "text": "PLANNED",
+            "fontPx": 18,
+            "time": 154.457,
+            "seconds": 10.218
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 18.38,
+            "time": 18.932,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 18.38,
+            "time": 18.932,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 18.38,
+            "time": 18.932,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1)",
+            "text": "BANGLADESH",
+            "fontPx": 18.38,
+            "time": 31.252,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(2)",
+            "text": "BAY OF BENGAL",
+            "fontPx": 18.38,
+            "time": 31.252,
+            "seconds": 14.425
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(3)",
+            "text": "INDIA",
+            "fontPx": 18.38,
+            "time": 31.252,
+            "seconds": 14.425
+          },
+          {
+            "selector": "div.union-fact.enter > span:nth-of-type(1)",
+            "text": "Amadi · chance of ≥34 ktRemal T−24 archived cycle",
+            "fontPx": 19,
+            "time": 73.923,
+            "seconds": 14.725
+          },
+          {
+            "selector": "div.evidence-fact.enter > span:nth-of-type(1)",
+            "text": "STORMS3 LEAD TIMES",
+            "fontPx": 19,
+            "time": 127.412,
+            "seconds": 15.026
+          },
+          {
+            "selector": "div.signal.enter",
+            "text": "THE WINDOW FOR PREPARATION IS OPEN.",
+            "fontPx": 19.6,
+            "time": 0,
+            "seconds": 10.518
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "50 MEMBERS",
+            "fontPx": 19.71,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "58 MEMBERS",
+            "fontPx": 20,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.cycle-grid > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "67 MEMBERS",
+            "fontPx": 20,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "div.formula.enter > span:nth-of-type(1)",
+            "text": "EXPECTED EXPOSURE",
+            "fontPx": 21,
+            "time": 59.199,
+            "seconds": 14.424
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "REMAL / 2024",
+            "fontPx": 22,
+            "time": 18.932,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "REMAL / 2024",
+            "fontPx": 22,
+            "time": 31.252,
+            "seconds": 14.425
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Team lead",
+            "fontPx": 22.66,
+            "time": 164.374,
+            "seconds": 10.217
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Local preparedness needs more than a centre line.",
+            "fontPx": 23,
+            "time": 18.932,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "50 archived ensemble members · GEFS / GEPS / NAVGEM-E",
+            "fontPx": 23,
+            "time": 31.853,
+            "seconds": 13.824
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Remal · 25 May 2024 12:00 UTC · forecast intensity · ≥34 kt",
+            "fontPx": 23,
+            "time": 73.923,
+            "seconds": 14.725
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Example rule: P(wind ≥34 kt) ≥30% · Remal T−24 cycle",
+            "fontPx": 23,
+            "time": 88.347,
+            "seconds": 13.223
+          },
+          {
+            "selector": "#scene-briefing > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Template-generated draft · decision support · nothing sent",
+            "fontPx": 23,
+            "time": 101.87,
+            "seconds": 12.621
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "2024 Sentinel-2 mosaic · not live imagery",
+            "fontPx": 23,
+            "time": 114.491,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Observed-track wind-model reference · small sample · no damage validation",
+            "fontPx": 23,
+            "time": 127.412,
+            "seconds": 15.026
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "Team member",
+            "fontPx": 23,
+            "time": 164.374,
+            "seconds": 10.217
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "Team member",
+            "fontPx": 23,
+            "time": 164.374,
+            "seconds": 10.217
+          },
+          {
+            "selector": "div.team-grid > div:nth-of-type(4) > p:nth-of-type(1)",
+            "text": "Team member",
+            "fontPx": 23,
+            "time": 164.975,
+            "seconds": 9.616
+          },
+          {
+            "selector": "div.limits-list > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Archived forecast data, not a live warning service.",
+            "fontPx": 23.75,
+            "time": 142.738,
+            "seconds": 11.72
+          },
+          {
+            "selector": "div.next-list > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 23.75,
+            "time": 154.758,
+            "seconds": 9.917
+          },
+          {
+            "selector": "div.pipeline > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "One member. One possible path.",
+            "fontPx": 23.89,
+            "time": 58.898,
+            "seconds": 14.725
+          },
+          {
+            "selector": "div.pipeline > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "Boundaries × population estimates.",
+            "fontPx": 24,
+            "time": 58.297,
+            "seconds": 15.326
+          },
+          {
+            "selector": "div.pipeline > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "Physical model → wind field.",
+            "fontPx": 24,
+            "time": 58.898,
+            "seconds": 14.725
+          },
+          {
+            "selector": "div.formula.enter > small:nth-of-type(1)",
+            "text": "Uncertainty: 10–90% range across forecast members",
+            "fontPx": 24,
+            "time": 59.199,
+            "seconds": 14.424
+          },
+          {
+            "selector": "div.limits-list > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Raw member frequencies and estimated exposure.",
+            "fontPx": 24,
+            "time": 142.437,
+            "seconds": 12.021
+          },
+          {
+            "selector": "div.limits-list > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Official warnings guide real-world decisions.",
+            "fontPx": 24,
+            "time": 142.437,
+            "seconds": 12.021
+          },
+          {
+            "selector": "div.next-list > div:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 24,
+            "time": 154.457,
+            "seconds": 10.218
+          },
+          {
+            "selector": "div.next-list > div:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 24,
+            "time": 154.457,
+            "seconds": 10.218
+          },
+          {
+            "selector": "#scene-hook > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "BANGLADESH · BEFORE LANDFALL",
+            "fontPx": 25,
+            "time": 0.601,
+            "seconds": 9.917
+          },
+          {
+            "selector": "#scene-title > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "A CYCLONE IMPACT DECISION-SUPPORT PROTOTYPE",
+            "fontPx": 25,
+            "time": 10.518,
+            "seconds": 8.114
+          },
+          {
+            "selector": "#scene-problem > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "01 / THE DECISION GAP",
+            "fontPx": 25,
+            "time": 18.631,
+            "seconds": 12.922
+          },
+          {
+            "selector": "#scene-forecasts > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "02 / MANY POSSIBLE STORMS",
+            "fontPx": 25,
+            "time": 31.553,
+            "seconds": 14.124
+          },
+          {
+            "selector": "#scene-cycles > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "03 / FOLLOW THE FORECAST",
+            "fontPx": 25,
+            "time": 45.376,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-cycles > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Compare archived cycles. See what changed.",
+            "fontPx": 25,
+            "time": 45.676,
+            "seconds": 12.922
+          },
+          {
+            "selector": "#scene-pipeline > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "04 / FORECAST → WIND → PEOPLE",
+            "fontPx": 25,
+            "time": 58.598,
+            "seconds": 15.025
+          },
+          {
+            "selector": "#scene-pipeline > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Physics-based wind model · population-weighted estimates",
+            "fontPx": 25,
+            "time": 58.898,
+            "seconds": 14.725
+          },
+          {
+            "selector": "#scene-union > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "05 / ONE COMMUNITY AT A TIME",
+            "fontPx": 25,
+            "time": 73.623,
+            "seconds": 15.025
+          },
+          {
+            "selector": "#scene-actions > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "06 / FROM ESTIMATES TO PRIORITIES",
+            "fontPx": 25,
+            "time": 88.347,
+            "seconds": 13.223
+          },
+          {
+            "selector": "#scene-briefing > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "07 / A HUMAN OWNS THE DECISION",
+            "fontPx": 25,
+            "time": 101.569,
+            "seconds": 12.922
+          },
+          {
+            "selector": "#scene-language > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "08 / BUILT TO BE UNDERSTOOD",
+            "fontPx": 25,
+            "time": 114.491,
+            "seconds": 13.222
+          },
+          {
+            "selector": "#scene-evidence > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "09 / SHOW THE EVIDENCE",
+            "fontPx": 25,
+            "time": 127.412,
+            "seconds": 15.026
+          },
+          {
+            "selector": "#scene-limits > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "10 / CLEAR ABOUT WHAT EXISTS",
+            "fontPx": 25,
+            "time": 142.137,
+            "seconds": 12.321
+          },
+          {
+            "selector": "#scene-next > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "11 / THE NEXT CHAPTER",
+            "fontPx": 25,
+            "time": 154.457,
+            "seconds": 10.218
+          },
+          {
+            "selector": "#scene-team > div:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "THE PEOPLE BEHIND GHURNI",
+            "fontPx": 25,
+            "time": 164.374,
+            "seconds": 10.217
+          },
+          {
+            "selector": "#scene-team > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "International AI Builders Congress · ClimateSphere AI / Climate Shield",
+            "fontPx": 25,
+            "time": 164.674,
+            "seconds": 9.917
+          },
+          {
+            "selector": "#scene-close > div:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "GHURNI / ঘূর্ণি",
+            "fontPx": 25,
+            "time": 174.591,
+            "seconds": 5.409
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.30 s (62.20–65.51 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 62.204,
+        "seconds": 3.305,
+        "floorSeconds": 3,
+        "until": 65.509
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.00 s (65.81–68.81 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 65.81,
+        "seconds": 3.005,
+        "floorSeconds": 3,
+        "until": 68.815
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.61 s (145.44–149.05 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 145.442,
+        "seconds": 3.606,
+        "floorSeconds": 3,
+        "until": 149.048
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.31 s (149.65–152.96 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 149.649,
+        "seconds": 3.306,
+        "floorSeconds": 3,
+        "until": 152.955
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.01 s (158.06–161.07 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 158.063,
+        "seconds": 3.005,
+        "floorSeconds": 3,
+        "until": 161.068
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"Help us evaluate the next steps.\" (6 words) is on screen 1.63 s (±0.01 s), under its 1.72 s floor: hold it about 0.5 s + 0.3 s a word (2.30 s here) before it leaves or changes; see references/motion.md.",
+        "text": "Help us evaluate the next steps.",
+        "selector": "#caption-47 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 623.98,
+          "y": 989.38,
+          "width": 672.02,
+          "height": 46.000000000000114
+        },
+        "time": 161.5,
+        "words": 6,
+        "seconds": 1.634,
+        "floorSeconds": 1.725,
+        "measured": [
+          {
+            "time": 160.768,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 161.068,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 161.369,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 161.669,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 161.97,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 162.27,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 162.571,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 162.871,
+            "opacity": 1,
+            "heightPx": 46
+          },
+          {
+            "time": 163.172,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 163.472,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 163.773,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.3009999999999877,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
